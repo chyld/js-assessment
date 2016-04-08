@@ -1,3 +1,5 @@
+/* global functionsAnswers */
+
 if ( typeof window === 'undefined' ) {
   require('../../app/functions');
   var expect = require('chai').expect;
