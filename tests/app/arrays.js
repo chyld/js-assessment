@@ -1,3 +1,5 @@
+/* global arraysAnswers */
+
 if ( typeof window === 'undefined' ) {
   require('../../app/arrays');
   var expect = require('chai').expect;
