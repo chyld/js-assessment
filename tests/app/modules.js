@@ -1,3 +1,5 @@
+/* global modulesAnswers */
+
 if ( typeof window === 'undefined' ) {
   require('../../app/modules');
   var expect = require('chai').expect;
