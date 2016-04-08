@@ -1,3 +1,5 @@
+/* global flowControlAnswers */
+
 if ( typeof window === 'undefined' ) {
   require('../../app/flowControl');
   var expect = require('chai').expect;
