@@ -8,11 +8,7 @@ exports = (typeof window === 'undefined') ? global : window;
 
 exports.bestPracticesAnswers = {
   globals : function() {
-    myObject = {
-      name : 'Jory'
-    };
-
-    return myObject;
+    return null;
   },
 
   functions : function(flag) {
@@ -30,6 +26,6 @@ exports.bestPracticesAnswers = {
   },
 
   identity : function(val1, val2) {
-
+    return val1 === val2;
   }
 };
