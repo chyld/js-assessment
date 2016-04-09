@@ -1,3 +1,5 @@
+/* global stringsAnswers */
+
 if ( typeof window === 'undefined' ) {
   require('../../app/strings');
   var expect = require('chai').expect;
